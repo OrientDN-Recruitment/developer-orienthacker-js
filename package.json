@@ -1,0 +1,66 @@
+{
+  "name": "developer-orienthacker-js",
+  "private": true,
+  "version": "1.0.0",
+  "description": "Orient Software interviewing questions in JS",
+  "main": "index.js",
+  "scripts": {
+    "episode_1": "npm run test -- episode_1 --watch",
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/OrientDN-Recruitment/developer-orientshifts-js.git"
+  },
+  "keywords": [
+    "orientsoftware",
+    "orient",
+    "hacker",
+    "js"
+  ],
+  "author": {
+    "name": "Hung Luu",
+    "email": "hungluu2106@gmail.com",
+    "url": "https://hungluu.com"
+  },
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/OrientDN-Recruitment/developer-orienthacker-js/issues"
+  },
+  "homepage": "https://github.com/OrientDN-Recruitment/developer-orienthacker-js#readme",
+  "dependencies": {
+    "express": "^4.17.1",
+    "express-validator": "^6.12.1"
+  },
+  "devDependencies": {
+    "@types/jest": "^26.0.24",
+    "jest": "^27.0.6",
+    "jest-environment-jsdom": "^27.0.6",
+    "supertest": "^6.1.4"
+  },
+  "jest": {
+    "roots": [
+      "<rootDir>/src"
+    ],
+    "collectCoverageFrom": [
+      "src/**/*.{js,ts}",
+      "!src/**/*.d.ts"
+    ],
+    "testMatch": [
+      "<rootDir>/src/**/__tests__/**/*.{js,ts}",
+      "<rootDir>/src/**/*.{spec,test}.{js,ts}"
+    ],
+    "transform": {
+      "^.+\\.(js|ts)$": "<rootDir>/node_modules/babel-jest"
+    },
+    "transformIgnorePatterns": [
+      "[/\\\\]node_modules[/\\\\].+\\.(js|ts)$"
+    ],
+    "moduleFileExtensions": [
+      "js",
+      "ts",
+      "json",
+      "node"
+    ]
+  }
+}
