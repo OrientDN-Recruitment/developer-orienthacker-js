@@ -10,8 +10,9 @@ Supporting wide-spreading protests against the government's deployment of killer
 * [Episode 2: Infiltration](#episode-2-infiltration)
 * [Episode 3: Eagle Eye](#episode-3-eagle-eye)
 * [Guidelines](#guidelines)
-  + [Setup guide](#)
-  + [Fix package version conflicts](#)
+  + [Setup guide](#setup-guide)
+  + [Version conflicts](#fix-package-version-conflicts)
+  + [How to get the best result](#how-can-i-get-the-best-result)
 * [Contribution](#contribution)
 
 Episode 1: The Alpha
@@ -22,17 +23,17 @@ This is your first day at Vilian, you team leader hands down a requirement to bu
 ![Build API][icon-api]
 ![May take 10-20m][icon-15]
 
-[View episode »](src/episode_1/README.md)
+[View episode »](src/episode_1)
 
 Episode 2: Infiltration
 -----
-After passing the company's probation, you now join a project for building HRMS system. Your task is writing an API to auto-generate working shifts for employees.
+After passing the company's probation, you now join a project for building a HRMS system. Your task is writing an API to auto-generate working shifts for restaurant employees.
 
 ![Working with NodeJS][icon-nodejs]
 ![Build API][icon-api]
 ![May take 15-25m][icon-20]
 
-[View episode »](src/episode_2/README.md)
+[View episode »](src/episode_2)
 
 Episode 3: Eagle Eye
 -----
@@ -41,7 +42,7 @@ In an attempt to track down location of drones project data center, you try to i
 ![Working with NodeJS][icon-nodejs]![Working with Google Maps API][icon-gmaps]![Documentation reading][icon-document]
 ![May take 20-30m][icon-25]
 
-[View episode »](src/episode_3/README.md)
+[View episode »](src/episode_3)
 
 Guidelines
 -----
@@ -65,6 +66,15 @@ Here are steps for getting started:
 ### Fix package version conflicts
 
 What if locked versions of dependencies conflict with your NodeJS version? You can simply remove it in `package.json` and re-add the conflicted dependencies.
+
+### How can I get the best result?
+
+Here is some things to ensure your victory:
+
+1. Keep calm and be confident
+2. Discuss with your interviewer to clear requirements and select best way to complete your missions before start coding
+3. Concise doesn't mean simple. Make sure to fulfill all requirements. 
+4. Don't be too of a perfectionist, killing your time over optimizing little things in your code.
 
 Contribution
 -----

@@ -21,3 +21,11 @@ This is your first day at Vilian, the manager hands down a requirement to build 
 ### Goals and non-goals
 - This is a test for robust development, the more concise the code is, the better.
 - All requirements should be fulfilled, nothing more. You can discuss with the interviewer beforehand about the best approach you can take.
+
+### How do we measure results
+- Requirements fulfillment
+- Number of tests passed
+- Logic
+- Code quality, conciseness
+
+**Good luck & Have fun 🍻**

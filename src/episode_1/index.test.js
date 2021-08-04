@@ -111,7 +111,7 @@ describe('Api#staffs', () => {
       .expect(422)
   })
 
-  afterAll(function () {
-    dbSave.mockClear();
+  afterAll(() => {
+    dbSave.mockClear()
   })
 })

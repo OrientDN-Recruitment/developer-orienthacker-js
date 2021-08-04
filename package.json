@@ -6,6 +6,7 @@
   "main": "index.js",
   "scripts": {
     "episode_1": "npm run test -- episode_1 --watch",
+    "episode_2": "npm run test -- episode_2 --watch",
     "test": "jest"
   },
   "repository": {
@@ -35,12 +36,16 @@
   "devDependencies": {
     "@types/jest": "^26.0.24",
     "jest": "^27.0.6",
-    "jest-environment-jsdom": "^27.0.6",
+    "kind-of": "^6.0.3",
+    "lodash": "^4.17.21",
     "supertest": "^6.1.4"
   },
   "jest": {
     "roots": [
       "<rootDir>/src"
+    ],
+    "reporters": [
+      "<rootDir>/src/lib/ConciseReporter.js"
     ],
     "collectCoverageFrom": [
       "src/**/*.{js,ts}",
